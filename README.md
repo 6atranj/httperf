@@ -13,9 +13,9 @@ After build httperf you can use as a cli in command line or use it's GUI. In 6at
  2. copy /GUI/httperfGUI.sh to /usr/bin/httperfGUI.sh
  3. copy /GUI/httperf.jpg to /usr/share/icons/6atranj-icons/httperf.jpg
 
-![siege simple GUI](https://github.com/6atranj/siege/blob/master/GUI/httperf.png)
+![httperf simple GUI](https://github.com/6atranj/httperf/blob/master/GUI/httperf.png)
 
-![httperf result](https://github.com/6atranj/siege/blob/master/GUI/httperfExport.png)
+![httperf result](https://github.com/6atranj/httperf/blob/master/GUI/httperfExport.png)
 
 
 ## Building httperf

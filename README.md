@@ -5,6 +5,18 @@ httperf is a tool for measuring web server performance. It provides a flexible f
 
 The focus of httperf is not on implementing one particular benchmark but on providing a robust, high-performance tool that facilitates the construction of both micro- and macro-level benchmarks. The three distinguishing characteristics of httperf are its robustness, which includes the ability to generate and sustain server overload, support for the HTTP/1.1 and SSL protocols, and its extensibility to new workload generators and performance measurements.
 
+HOW TO USE IT?
+---------------
+After build httperf you can use as a cli in command line or use it's GUI. In 6atranj group we write an GUI for it. you can run /GUI/httperfGUI.sh and use it's simple GUI. if you have Ubuntu and want to add it's icon you should:
+
+ 1. copy /GUI/httperf.desktop to /usr/share/applicaions folder
+ 2. copy /GUI/httperfGUI.sh to /usr/bin/httperfGUI.sh
+ 3. copy /GUI/httperf.jpg to /usr/share/icons/6atranj-icons/httperf.jpg
+
+![siege simple GUI](https://github.com/6atranj/siege/blob/master/GUI/httperf.png)
+
+![httperf result](https://github.com/6atranj/siege/blob/master/GUI/httperfExport.png)
+
 
 ## Building httperf
 
@@ -425,3 +437,4 @@ typically timeout before TCP even gets a chance to retransmit (the
 initial retransmission timeout is on the order of 3 seconds).  This is
 usually OK, except that one should keep in mind that it has the effect
 of truncating the connection life time distribution.
+

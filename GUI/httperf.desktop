@@ -1,0 +1,14 @@
+[Desktop Entry]
+Version=0.9.0
+
+Name=Httperf
+Comment=tool for measuring web server performance
+
+Icon=/usr/share/icons/6atranj-icons/httperf.jpg
+Exec=/usr/bin/httperfGUI.sh
+
+StartupNotify=true
+Terminal=false
+
+Type=Application
+Categories=Knight
